@@ -1,7 +1,8 @@
-body {
-  min-height: 2000px;
-}
+
 .jumbotron {
   padding: 5rem;
   background-color: #e2edff;
+}
+footer{
+  margin: 1rem;
 }
