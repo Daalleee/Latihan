@@ -7,3 +7,17 @@ footer {
   padding: 1rem;
   margin: 0;
 }
+
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #3b82f6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
