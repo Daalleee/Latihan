@@ -139,36 +139,43 @@
         <!-- Akhir Project -->
 
         <!-- Contact -->
-        <section id="contact" class="py-5 bg-light">
+        <section id="contact" class="contact py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Contact</h2>
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <h2 class="fw-bold">Contact Me</h2>
+
+                    </div>
+                </div>
+
                 <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <div class="card shadow-sm border-0">
-                            <div class="card-body">
-                                <form>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control"
-                                            placeholder="Nama" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control"
-                                            placeholder="Email" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <textarea class="form-control" rows="4"
-                                            placeholder="Pesan"
-                                            required></textarea>
-                                    </div>
-                                    <button type="submit"
-                                        class="btn btn-primary w-100">Kirim</button>
-                                </form>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label"></label>
+                                <input type="text" class="form-control"
+                                    id="name" placeholder="Masukkan nama Anda">
                             </div>
-                        </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"></label>
+                                <input type="email" class="form-control"
+                                    id="email"
+                                    placeholder="Masukkan email Anda">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label"></label>
+                                <textarea class="form-control" id="message"
+                                    rows="4"
+                                    placeholder="Tulis pesan Anda"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-primary w-100">Kirim</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Akhir Contact -->
 
         <!-- Footer -->
