@@ -39,11 +39,6 @@
 }
 
 
-footer {
-  padding: 1rem;
-  margin: 0;
-}
-
 .navbar {
   background: linear-gradient(90deg, #0d6efd, #3b82f6);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -88,4 +83,19 @@ form button {
 form button:hover {
   background-color: #0d6efd;
   transform: scale(1.02);
+}
+
+.card-img-top {
+  height: 250px;
+  /* Atur tinggi sesuai kebutuhanmu */
+  object-fit: cover;
+  /* Biar gambar tetap proporsional */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+
+footer {
+  padding: 1rem;
+  margin: 0;
 }
