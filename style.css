@@ -1,101 +1,138 @@
+/* Jumbotron: Bagian besar di halaman utama dengan padding dan warna latar belakang */
 .jumbotron {
   padding: 5rem;
   background-color: #e2edff;
-
 }
 
-/* Animasi Fade untuk Jumbotron */
+/* Animasi Fade untuk Jumbotron: Memberikan efek fade-in pada elemen dengan kelas animate-fade */
 .animate-fade {
   animation: fadeIn 1.2s ease-in-out;
 }
 
+/* Keyframes untuk animasi fadeIn: Mengatur perubahan opacity dan posisi vertikal */
 @keyframes fadeIn {
   0% {
     opacity: 0;
+    /* Awalnya transparan */
     transform: translateY(20px);
+    /* Posisi sedikit ke bawah */
   }
 
   100% {
     opacity: 1;
+    /* Menjadi terlihat */
     transform: translateY(0);
+    /* Kembali ke posisi semula */
   }
 }
 
-/* Animasi Fade untuk About Section */
+/* Animasi Fade untuk About Section: Memberikan efek fade-in ke atas pada elemen dengan ID about */
 #about {
   animation: fadeInUp 1.5s ease-in-out;
 }
 
+/* Keyframes untuk animasi fadeInUp: Mengatur perubahan opacity dan posisi vertikal */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
+    /* Awalnya transparan */
     transform: translateY(40px);
+    /* Posisi lebih jauh ke bawah */
   }
 
   100% {
     opacity: 1;
+    /* Menjadi terlihat */
     transform: translateY(0);
+    /* Kembali ke posisi semula */
   }
 }
 
-
+/* Navbar: Gaya untuk navigasi dengan gradasi warna dan bayangan */
 .navbar {
   background: linear-gradient(90deg, #0d6efd, #3b82f6);
+  /* Gradasi biru */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Bayangan lembut */
   transition: background-color 0.3s ease;
+  /* Transisi saat warna berubah */
 }
 
+/* Link di Navbar: Menambahkan transisi pada warna */
 .nav-link {
   transition: color 0.3s ease;
 }
 
+/* Hover pada Link Navbar: Mengubah warna menjadi kuning */
 .nav-link:hover {
   color: #ffc107;
 }
 
+/* Card: Gaya untuk kartu dengan sudut membulat, bayangan, dan transisi */
 .card {
   border-radius: 1rem;
+  /* Membulatkan sudut */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Transisi untuk efek hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Bayangan lembut */
 }
 
+/* Hover pada Card: Memberikan efek zoom dan bayangan lebih besar */
 .card:hover {
   transform: scale(1.03);
+  /* Sedikit memperbesar */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  /* Bayangan lebih tebal */
 }
 
+/* Form: Gaya untuk formulir dengan latar belakang terang, padding, dan bayangan */
 form {
   background: #f8f9fa;
+  /* Warna latar belakang abu-abu terang */
   padding: 2rem;
+  /* Ruang di dalam form */
   border-radius: 1rem;
+  /* Membulatkan sudut */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  /* Bayangan lembut */
 }
 
+/* Input dan Textarea di Form: Membulatkan sudut */
 form input,
 form textarea {
   border-radius: 0.5rem;
 }
 
+/* Tombol di Form: Menambahkan transisi pada warna dan transformasi */
 form button {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover pada Tombol Form: Mengubah warna dan sedikit memperbesar */
 form button:hover {
   background-color: #0d6efd;
+  /* Warna biru */
   transform: scale(1.02);
+  /* Sedikit memperbesar */
 }
 
+/* Gambar di Card: Mengatur tinggi gambar, menjaga proporsi, dan membulatkan sudut atas */
 .card-img-top {
   height: 250px;
-  /* Atur tinggi sesuai kebutuhanmu */
+  /* Tinggi gambar */
   object-fit: cover;
-  /* Biar gambar tetap proporsional */
+  /* Menjaga proporsi gambar */
   border-top-left-radius: 1rem;
+  /* Membulatkan sudut kiri atas */
   border-top-right-radius: 1rem;
+  /* Membulatkan sudut kanan atas */
 }
 
-
+/* Footer: Gaya untuk bagian bawah halaman */
 footer {
   padding: 1rem;
+  /* Ruang di dalam footer */
   margin: 0;
+  /* Menghapus margin default */
 }
