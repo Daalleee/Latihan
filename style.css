@@ -128,11 +128,3 @@ form button:hover {
   border-top-right-radius: 1rem;
   /* Membulatkan sudut kanan atas */
 }
-
-/* Footer: Gaya untuk bagian bawah halaman */
-footer {
-  padding: 1rem;
-  /* Ruang di dalam footer */
-  margin: 0;
-  /* Menghapus margin default */
-}
